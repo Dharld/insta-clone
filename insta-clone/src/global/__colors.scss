@@ -1,0 +1,63 @@
+:root {
+  /* main colors */
+  --color-primary: hsl(220, 88%, 63%);
+  --color-primary-light: hsl(220, 88%, 83%);
+  --color-primary-dark: hsl(220, 88%, 33%);
+
+  --color-accent: hsl(355, 90%, 61%);
+  --color-accent-light: hsl(355, 90%, 91%);
+  --color-accent-dark: hsl(355, 90%, 31%);
+
+  // shades - generated using chroma.js - 12 steps
+  --black: #000;
+  --gray-10: #262626;
+  --gray-6: #7b7a7d;
+  --gray-4: #a5a5a6;
+  --gray-3: #bbbbbc;
+  --gray-2: #d1d0d2;
+  --gray-1: #e8e7e8;
+  --white: white;
+
+  /* feedback */
+  --color-success: #88c459;
+  --color-error: #f5414f;
+  --color-warning: #ffd137;
+
+  /* typography */
+  --color-text: var(--gray-10);
+  --color-text-heading: var(--black);
+  --color-text-subtle: var(--gray-6);
+  --color-link: var(--color-primary);
+  --color-link-visited: var(--color-primary-dark);
+  --color-mark: var(--color-accent-bg);
+  --color-blockquote-border: var(--gray-2);
+  --color-input: #8e8e8e;
+
+  /* border */
+  --color-border: var(--gray-2);
+
+  /* body */
+  --color-body: var(--white);
+
+  /* forms */
+  --form-element-border: var(--color-border);
+  --form-element-border-focus: var(--color-primary);
+  --form-element-border-error: var(--color-error);
+  --form-element-bg: var(--white);
+  --form-text-placeholder: var(--gray-4);
+
+  /* buttons */
+  --btn-primary-bg: var(--color-primary);
+  --btn-primary-hover: var(--color-primary-light);
+  --btn-primary-active: var(--color-primary-dark);
+  --btn-primary-label: var(--white);
+
+  /* icons */
+  --color-icon-primary: var(--gray-4);
+  --color-icon-secondary: inherit;
+
+  /* special */
+  --color-yellow-insta: #ffca00;
+  --color-violet-insta: #d300c5;
+  --color-bg: var(--black);
+}

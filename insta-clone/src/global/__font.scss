@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Instagram Sans Condensed";
+  src: url("../assets/font/InstagramSansCondensed-Bold.eot");
+  src: url("../assets/font/InstagramSansCondensed-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/font/InstagramSansCondensed-Bold.woff2") format("woff2"),
+    url("../assets/font/InstagramSansCondensed-Bold.woff") format("woff"),
+    url("../assets/font/InstagramSansCondensed-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Instagram Sans";
+  src: url("../assets/font/InstagramSans-Medium.eot");
+  src: url("../assets/font/InstagramSans-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/font/InstagramSans-Medium.woff2") format("woff2"),
+    url("../assets/font/InstagramSans-Medium.woff") format("woff"),
+    url("../assets/font/InstagramSans-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Instagram Sans";
+  src: url("../assets/font/InstagramSans-Bold.eot");
+  src: local("Instagram Sans Bold"), local("assets/font/InstagramSans-Bold"),
+    url("../assets/font/InstagramSans-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/font/InstagramSans-Bold.woff2") format("woff2"),
+    url("../assets/font/InstagramSans-Bold.woff") format("woff"),
+    url("../assets/font/InstagramSans-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Instagram Sans";
+  src: url("../assets/font/InstagramSans-Light.eot");
+  src: url("../assets/font/InstagramSans-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/font/InstagramSans-Light.woff2") format("woff2"),
+    url("../assets/font/InstagramSans-Light.woff") format("woff"),
+    url("../assets/font/InstagramSans-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Instagram Sans";
+  src: url("../assets/font/InstagramSans-Regular.eot");
+  src: url("../assets/font/InstagramSans-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/font/InstagramSans-Regular.woff2") format("woff2"),
+    url("../assets/font/InstagramSans-Regular.woff") format("woff"),
+    url("../assets/font/InstagramSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+// @import url("https://fonts.cdnfonts.com/css/instagram-sans-2");
