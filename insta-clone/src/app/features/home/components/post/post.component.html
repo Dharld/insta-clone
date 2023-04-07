@@ -1,10 +1,10 @@
-<div class="post">
+<div class="post" *ngIf="post">
   <div class="post__header">
     <div class="post__infos">
       <div class="post__img">
-        <img src="assets/avatar.png" alt="" />
+        <img [src]="post.user?.profilePic" alt="" />
       </div>
-      <span class="name">Username</span>
+      <span class="name">{{ post.user.username }}</span>
 
       <span class="datetime">2h</span>
     </div>
@@ -20,7 +20,7 @@
     </span>
   </div>
   <div class="post__content">
-    <img src="assets/avatar.png" alt="that's the image" />
+    <img [src]="post.imgUrl" alt="that's the image" />
   </div>
   <div class="post__actions">
     <ul class="actions">
@@ -61,19 +61,9 @@
       </li>
     </ul>
   </div>
-  <div class="like__number">889 likes</div>
+  <div class="like__number">{{ post.number_of_likes }} likes</div>
   <div class="description">
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro ullam,
-    aliquid accusamus qui earum quo et sed tempora nobis dolorem aspernatur
-    aperiam explicabo architecto nisi mollitia expedita perspiciatis a provident
-    delectus quasi non, minima sunt? Ad veritatis voluptatem nulla ducimus
-    ratione? Saepe veritatis modi tenetur inventore, culpa accusamus totam
-    nesciunt ullam nisi facilis incidunt amet ea! Rerum recusandae in modi sunt
-    excepturi perferendis a sequi eaque neque et maiores, saepe fuga nemo ipsam
-    officia dolorum error aliquam dolorem amet exercitationem distinctio
-    explicabo. Beatae, distinctio at dolorem quidem quis dignissimos laudantium
-    nulla recusandae ipsa expedita molestiae sunt labore accusantium soluta
-    totam!
+    {{ post.description }}
   </div>
   <div class="view-all-comments">View all 18 comments</div>
 </div>

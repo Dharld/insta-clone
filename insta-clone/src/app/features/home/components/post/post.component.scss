@@ -39,12 +39,14 @@
 
       .name {
         font-weight: bold;
+        font-size: var(--text-sm);
       }
       .datetime {
         display: block;
         position: relative;
         color: var(--color-text-subtle);
         margin-left: var(--space-md);
+        font-size: var(--text-sm);
 
         &::before {
           content: "";
