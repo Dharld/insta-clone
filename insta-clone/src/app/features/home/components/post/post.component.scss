@@ -1,0 +1,120 @@
+.post {
+  margin-bottom: 1rem;
+  &__#{header} {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--space-xs);
+    padding: 0 0.25rem;
+
+    .post__infos {
+      display: flex;
+      align-items: center;
+      color: white;
+
+      .post__img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        padding: var(--space-xxxxs);
+        border: 2px solid transparent;
+        background: linear-gradient(var(--color-bg), var(--color-bg))
+            padding-box,
+          linear-gradient(
+              45deg,
+              var(--color-yellow-insta),
+              var(--color-violet-insta)
+            )
+            border-box;
+        display: grid;
+        place-items: center;
+        margin-right: var(--space-xxs);
+
+        img {
+          width: 100%;
+          aspect-ratio: 1/1;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+      }
+
+      .name {
+        font-weight: bold;
+      }
+      .datetime {
+        display: block;
+        position: relative;
+        color: var(--color-text-subtle);
+        margin-left: var(--space-md);
+
+        &::before {
+          content: "";
+          position: absolute;
+          width: 5px;
+          height: 5px;
+          border-radius: 50%;
+          background-color: var(--color-text-subtle);
+          left: calc(-1.85 * var(--space-xxs));
+          top: 0;
+          bottom: 0;
+          margin: auto;
+        }
+      }
+    }
+
+    .more-icon {
+      display: block;
+      display: grid;
+      place-items: center;
+      svg {
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+
+  &__#{content} {
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+  &__#{actions} {
+    ul.actions {
+      display: flex;
+      padding: var(--space-xs);
+      gap: var(--space-sm);
+
+      li {
+        cursor: pointer;
+        svg {
+          width: 24px;
+          height: 24px;
+          display: grid;
+          place-items: center;
+        }
+
+        &:is(:last-child) {
+          flex: 1;
+          display: flex;
+          justify-content: end;
+        }
+      }
+    }
+  }
+  .like__number {
+    padding: var(--space-xs) var(--space-xs);
+    color: white;
+    font-size: var(--text-sm);
+    font-weight: bold;
+  }
+  .description {
+    padding: var(--space-xs) var(--space-xs);
+    color: white;
+    font-weight: light;
+    font-size: var(--text-xs);
+  }
+
+  .view-all-comments {
+    padding: 0 var(--space-xs);
+    color: var(--gray-6);
+    font-size: var(--text-sm);
+  }
+}
