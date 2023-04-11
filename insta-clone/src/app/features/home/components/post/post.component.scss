@@ -75,6 +75,11 @@
   }
 
   &__#{content} {
+    width: 100%;
+    min-height: 400px;
+    img {
+      background: #ddd;
+    }
     border-radius: 0.5rem;
     overflow: hidden;
   }

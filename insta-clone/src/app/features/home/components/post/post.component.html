@@ -2,7 +2,7 @@
   <div class="post__header">
     <div class="post__infos">
       <div class="post__img">
-        <img [src]="post.user?.profilePic" alt="" />
+        <img [src]="post.user?.profilePic" alt="" loading="lazy" />
       </div>
       <span class="name">{{ post.user.username }}</span>
 
@@ -20,7 +20,7 @@
     </span>
   </div>
   <div class="post__content">
-    <img [src]="post.imgUrl" alt="that's the image" />
+    <img [src]="post.imgUrl" alt="that's the image" loading="lazy" />
   </div>
   <div class="post__actions">
     <ul class="actions">

@@ -9,9 +9,7 @@ import { Post } from 'src/app/model/post.model';
 export class PostComponent implements OnInit {
   @Input() post!: Post;
 
-  constructor() {
-    console.log(this.post);
-  }
+  constructor() {}
 
   ngOnInit(): void {}
 }
