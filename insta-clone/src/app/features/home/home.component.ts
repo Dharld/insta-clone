@@ -38,7 +38,7 @@ export class HomeComponent implements OnInit {
     const options: SwiperOptions = {
       slidesPerGroup: 4,
       slidesPerView: 6,
-      spaceBetween: 30,
+      spaceBetween: 20,
     };
 
     const swiperEl = this._swiperRef?.nativeElement;
@@ -47,5 +47,13 @@ export class HomeComponent implements OnInit {
     swiperEl.initialize();
     if (this.swiper) this.swiper.currentBreakpoint = false;
     this.swiper = this._swiperRef?.nativeElement.swiper;
+  }
+
+  swipeNext() {
+    this.swiper?.slideNext();
+  }
+
+  swipePrev() {
+    this.swiper?.slidePrev();
   }
 }
