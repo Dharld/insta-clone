@@ -23,66 +23,16 @@
 </header>
 <div class="content">
   <div class="stories">
-    <div class="story">
-      <div class="story__img">
-        <img src="assets/avatar.png" alt="" />
-      </div>
-      <div class="story__username">Username__</div>
-    </div>
-    <div class="story">
-      <div class="story__img">
-        <img src="assets/avatar.png" alt="" />
-      </div>
-      <div class="story__username">Username__</div>
-    </div>
-    <div class="story">
-      <div class="story__img">
-        <img src="assets/avatar.png" alt="" />
-      </div>
-      <div class="story__username">Username__</div>
-    </div>
-    <div class="story">
-      <div class="story__img">
-        <img src="assets/avatar.png" alt="" />
-      </div>
-      <div class="story__username">Username__</div>
-    </div>
-    <div class="story">
-      <div class="story__img">
-        <img src="assets/avatar.png" alt="" />
-      </div>
-      <div class="story__username">Username__</div>
-    </div>
-    <div class="story">
-      <div class="story__img">
-        <img src="assets/avatar.png" alt="" />
-      </div>
-      <div class="story__username">Username__</div>
-    </div>
-    <div class="story">
-      <div class="story__img">
-        <img src="assets/avatar.png" alt="" />
-      </div>
-      <div class="story__username">Username__</div>
-    </div>
-    <div class="story">
-      <div class="story__img">
-        <img src="assets/avatar.png" alt="" />
-      </div>
-      <div class="story__username">Username__</div>
-    </div>
-    <div class="story">
-      <div class="story__img">
-        <img src="assets/avatar.png" alt="" />
-      </div>
-      <div class="story__username">Username__</div>
-    </div>
-    <div class="story">
-      <div class="story__img">
-        <img src="assets/avatar.png" alt="" />
-      </div>
-      <div class="story__username">Username__</div>
-    </div>
+    <swiper-container #swiperRef init="false" class="swiper">
+      <swiper-slide *ngFor="let story of stories">
+        <div class="story">
+          <div class="story__img">
+            <img src="assets/avatar.png" alt="" />
+          </div>
+          <div class="story__username">Username__</div>
+        </div>
+      </swiper-slide>
+    </swiper-container>
   </div>
   <div class="posts">
     <app-post *ngFor="let post of posts.slice(0, 10)" [post]="post"></app-post>
