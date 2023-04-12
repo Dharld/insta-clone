@@ -1,0 +1,29 @@
+<div class="content">
+  <div class="search-bar-container">
+    <app-search-bar class="search-bar"></app-search-bar>
+  </div>
+  <div class="results">
+    <div
+      class="result-item {{ res.featured ? 'featured' : '' }}"
+      *ngFor="let res of searchResults.slice(0, 17)"
+    >
+      <img [src]="res.imgUrl" alt="" class="preview-img" loading="lazy" />
+      <div class="infos">
+        <div class="wrapper">
+          <div>
+            <svg>
+              <use href="assets/icons.svg#like" fill="white" />
+            </svg>
+            <span>{{ res.number_of_likes }}</span>
+          </div>
+          <!--  <div>
+            <svg>
+              <use href="assets/icons.svg#comment" stroke="white" />
+            </svg>
+            <span>{{ res.comment }}</span>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

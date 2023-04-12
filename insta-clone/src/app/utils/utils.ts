@@ -2,6 +2,16 @@ import { faker } from '@faker-js/faker';
 import { Post } from '../model/post.model';
 import { User } from '../model/user.model';
 
+export function createSearchPreview() {
+  return {
+    user: createUser(),
+    imgUrl: faker.image.sports(640, 640, true),
+    number_of_likes: faker.datatype.number(),
+    featured: Math.random() < 0.2,
+    comments: [],
+  };
+}
+
 export function createPost(): Post {
   return {
     id: faker.datatype.uuid(),

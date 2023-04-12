@@ -13,7 +13,9 @@ import { register } from 'swiper/element/bundle';
 export class HomeComponent implements OnInit {
   posts!: Post[];
   activeUser!: User;
-  stories = new Array<string>(9).fill('');
+  stories = new Array<string>(25).fill('');
+  showLeftArrow = false;
+  showRightArrow = true;
 
   @ViewChild('swiperRef', { static: true }) protected _swiperRef:
     | ElementRef
@@ -36,9 +38,9 @@ export class HomeComponent implements OnInit {
 
   private _initSwiper() {
     const options: SwiperOptions = {
-      slidesPerGroup: 4,
+      slidesPerGroup: 5,
       slidesPerView: 6,
-      spaceBetween: 20,
+      spaceBetween: 10,
     };
 
     const swiperEl = this._swiperRef?.nativeElement;
@@ -47,6 +49,23 @@ export class HomeComponent implements OnInit {
     swiperEl.initialize();
     if (this.swiper) this.swiper.currentBreakpoint = false;
     this.swiper = this._swiperRef?.nativeElement.swiper;
+
+    this.swiper?.on('reachBeginning', (swiper) => {
+      this.hideLeftArrowButton();
+    });
+
+    this.swiper?.on('reachEnd', (swiper) => {
+      this.hideRightArrowButton();
+    });
+
+    this.swiper?.on('slideChange', (swiper) => {
+      if (!this.swiper?.isEnd) {
+        this.showRightArrowButton();
+      }
+      if (!this.swiper?.isBeginning) {
+        this.showLeftArrowButton();
+      }
+    });
   }
 
   swipeNext() {
@@ -55,5 +74,19 @@ export class HomeComponent implements OnInit {
 
   swipePrev() {
     this.swiper?.slidePrev();
+  }
+
+  showLeftArrowButton() {
+    this.showLeftArrow = true;
+  }
+  hideLeftArrowButton() {
+    this.showLeftArrow = false;
+  }
+
+  showRightArrowButton() {
+    this.showRightArrow = true;
+  }
+  hideRightArrowButton() {
+    this.showRightArrow = false;
   }
 }
