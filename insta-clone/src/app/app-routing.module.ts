@@ -28,6 +28,18 @@ const routes: Routes = [
       import('./features/direct/direct.module').then((m) => m.DirectModule),
   },
   {
+    path: 'auth',
+    loadChildren: () =>
+      import('./features/authentication/authentication.module').then(
+        (m) => m.AuthenticationModule
+      ),
+  },
+  {
+    path: 'profile',
+    loadChildren: () =>
+      import('./features/profile/profile.module').then((m) => m.ProfileModule),
+  },
+  {
     path: '',
     pathMatch: 'full',
     redirectTo: 'home',

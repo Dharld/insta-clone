@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { createSearchPreview } from 'src/app/utils/utils';
+import { createPost, createSearchPreview } from 'src/app/utils/utils';
+import { DataSource } from '../../services/data.static';
+import { Post } from 'src/app/model/post.model';
 
 @Component({
   selector: 'app-explore',
@@ -7,13 +9,12 @@ import { createSearchPreview } from 'src/app/utils/utils';
   styleUrls: ['./explore.component.scss'],
 })
 export class ExploreComponent implements OnInit {
-  searchResults: any[] = [];
+  posts: any[] = [];
 
-  constructor() {
-    for (let i = 0; i < 35; i++) {
-      let newResult = createSearchPreview();
-      this.searchResults.push(newResult);
-    }
+  constructor(private dataSource: DataSource) {
+    this.dataSource.getPosts().then((posts) => {
+      this.posts = posts;
+    });
   }
 
   ngOnInit(): void {}

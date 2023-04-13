@@ -52,6 +52,8 @@ swiper-slide {
   overflow: hidden;
   cursor: pointer;
   position: relative;
+  width: clamp(200px, 100%, 500px);
+  margin: 0 auto;
 
   /* &::-webkit-scrollbar-track {
     display: none;

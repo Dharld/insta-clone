@@ -1,0 +1,59 @@
+<section class="profile">
+  <div class="primary_infos">
+    <img src="assets/avatar.png" alt="" class="profile-img" />
+    <div>
+      <div class="username">
+        <span>thisisdiyh</span>
+        <span>
+          <svg>
+            <use href="assets/icons.svg#settings" color="white" />
+          </svg>
+        </span>
+      </div>
+      <button>Edit profile</button>
+    </div>
+  </div>
+  <div class="description">
+    <div class="name">Yann Djoum</div>
+    <div class="text">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
+      perferendis deleniti repellat voluptatibus deserunt
+    </div>
+  </div>
+  <div class="stats">
+    <div class="stat">
+      <div>25</div>
+      <div>posts</div>
+    </div>
+    <div class="stat">
+      <div>25</div>
+      <div>followers</div>
+    </div>
+    <div class="stat">
+      <div>25</div>
+      <div>following</div>
+    </div>
+  </div>
+  <div class="grid">
+    <div class="grid-header">
+      <div class="wrapper active">
+        <svg>
+          <use href="assets/icons.svg#posts" />
+        </svg>
+      </div>
+      <div class="wrapper">
+        <svg>
+          <use href="assets/icons.svg#save" />
+        </svg>
+      </div>
+      <div class="wrapper">
+        <svg>
+          <use href="assets/icons.svg#tagged" />
+        </svg>
+      </div>
+    </div>
+    <div class="grid-content">
+      <app-preview [previewItem]="res" *ngFor="let res of posts"></app-preview>
+    </div>
+  </div>
+</section>

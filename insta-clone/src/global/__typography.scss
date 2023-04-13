@@ -12,6 +12,13 @@ Typography
   --text-scale-ratio: 1.2;
 
   /* type scale */
+  --text-xxxs: calc(
+    1em /
+      (
+        var(--text-scale-ratio) * var(--text-scale-ratio) *
+          var(--text-scale-ratio) * var(--text-scale-ratio)
+      )
+  );
   --text-xxs: calc(
     1em / (var(--text-scale-ratio) * var(--text-scale-ratio)) *
       var(--text-scale-ratio)
