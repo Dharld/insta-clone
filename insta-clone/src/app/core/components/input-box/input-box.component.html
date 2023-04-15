@@ -1,0 +1,23 @@
+<div class="input {{ disabled ? 'disabled' : '' }}">
+  <input
+    #in
+    [type]="type"
+    [name]="name"
+    [id]="name"
+    required
+    (change)="onChange(in.value)"
+    (blur)="onTouched()"
+    [disabled]="disabled"
+    [value]="value"
+    class="{{ in.value.length > 0 ? 'dirty' : '' }}"
+  />
+  <label [for]="name">{{ placeholder }}</label>
+  <div class="checkmark" *ngIf="checkMark">
+    <svg viewBox="0 0 24 24">
+      <use href="/assets/icons/icons.svg#checkMark"></use>
+    </svg>
+  </div>
+</div>
+
+<!-- [(ngModel)]="control"
+      #formControl="ngModel" -->

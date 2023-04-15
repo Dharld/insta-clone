@@ -1,5 +1,9 @@
 <section class="signup">
-  <form class="bordered-container">
+  <form
+    class="bordered-container"
+    [formGroup]="signupForm"
+    (ngSubmit)="submitForm()"
+  >
     <div class="logo">
       <svg class="pic">
         <use
@@ -14,22 +18,27 @@
     <h2>Sign up to see photos and videos from your friends.</h2>
     <button class="btn fb">Log in with Facebook</button>
     <div class="sep">OR</div>
-    <div class="input">
-      <input type="text" id="auth_mean" name="auth_mean" />
-      <label for="auth_mean">Mobile Number or Email</label>
-    </div>
-    <div class="input">
-      <input type="text" id="full_name" name="full_name" />
-      <label for="full_name">Full Name</label>
-    </div>
-    <div class="input">
-      <input type="text" id="username" name="username" />
-      <label for="username">Username</label>
-    </div>
-    <div class="input">
-      <input type="password" id="password" name="password" />
-      <label for="password">Password</label>
-    </div>
+    <app-input-box
+      placeholder="Email"
+      name="email"
+      formControlName="email"
+    ></app-input-box>
+    <app-input-box
+      placeholder="Full Name"
+      name="full_name"
+      formControlName="full_name"
+    ></app-input-box>
+    <app-input-box
+      placeholder="Username"
+      name="username"
+      formControlName="username"
+    ></app-input-box>
+    <app-input-box
+      placeholder="Password"
+      name="password"
+      formControlName="password"
+      type="password"
+    ></app-input-box>
     <div class="policy">
       <div>
         People who use our service may have uploaded your contact information to

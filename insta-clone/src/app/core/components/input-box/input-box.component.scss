@@ -1,0 +1,42 @@
+.input {
+  position: relative;
+  background: var(--color-input-bg);
+  margin: var(--space-xs) 0;
+  border: 1px solid var(--gray-1);
+  border-radius: 2px;
+
+  label {
+    position: absolute;
+    top: calc(40% - var(--text-xs) / 2);
+    left: var(--space-sm);
+    margin: auto 0;
+    font-size: var(--text-xs);
+    color: var(--gray-5);
+    font-weight: 400;
+    transition: all 150ms ease;
+  }
+
+  input {
+    background-color: transparent;
+    width: 100%;
+    // padding: var(--space-md);
+    padding-top: calc(var(--space-md) + 5px);
+    padding-bottom: calc(var(--space-md) - 5px);
+    padding-inline: calc(var(--space-md) - 2px);
+    border: none;
+    outline: none;
+    font-size: var(--text-xs);
+
+    &:focus + label {
+      top: 5px;
+      left: var(--space-md);
+      font-size: var(--text-xxxs);
+    }
+  }
+}
+:host.ng-dirty label,
+:host.ng-pristine input.dirty + label {
+  top: 5px;
+  left: var(--space-md);
+  font-size: var(--text-xxxs);
+}
