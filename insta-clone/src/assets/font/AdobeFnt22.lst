@@ -1,0 +1,415 @@
+%!Adobe-FontList 1.22
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\Projects\InstaClone\insta-clone\src\assets\Font\InstagramSans-Bold.eot
+FileModTime:1660155293
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:InstagramSans-Bold
+FamilyName:Instagram Sans
+StyleName:Bold
+FullName:Instagram Sans Bold
+MenuName:Instagram Sans
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:D:\Projects\InstaClone\insta-clone\src\assets\Font\InstagramSans-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:73808
+FileModTime:1660155293
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Instagram Sans Bold
+NameArray:0,Win,1,Instagram Sans
+NameArray:0,Win,16,Instagram Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\Projects\InstaClone\insta-clone\src\assets\Font\InstagramSans-Bold.woff
+FileModTime:1660155293
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\Projects\InstaClone\insta-clone\src\assets\Font\InstagramSans-Bold.woff2
+FileModTime:1660155293
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\Projects\InstaClone\insta-clone\src\assets\Font\InstagramSans-Light.eot
+FileModTime:1660155293
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:InstagramSans-Light
+FamilyName:Instagram Sans
+StyleName:Light
+FullName:Instagram Sans Light
+MenuName:Instagram Sans Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Projects\InstaClone\insta-clone\src\assets\Font\InstagramSans-Light.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:74328
+FileModTime:1660155293
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Instagram Sans Light
+NameArray:0,Win,1,Instagram Sans Light
+NameArray:0,Win,16,Instagram Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\Projects\InstaClone\insta-clone\src\assets\Font\InstagramSans-Light.woff
+FileModTime:1660155294
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\Projects\InstaClone\insta-clone\src\assets\Font\InstagramSans-Light.woff2
+FileModTime:1660155294
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\Projects\InstaClone\insta-clone\src\assets\Font\InstagramSans-Medium.eot
+FileModTime:1660155292
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:InstagramSans-Medium
+FamilyName:Instagram Sans
+StyleName:Medium
+FullName:Instagram Sans Medium
+MenuName:Instagram Sans Medium
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Projects\InstaClone\insta-clone\src\assets\Font\InstagramSans-Medium.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:73828
+FileModTime:1660155292
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Instagram Sans Medium
+NameArray:0,Win,1,Instagram Sans Medium
+NameArray:0,Win,16,Instagram Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\Projects\InstaClone\insta-clone\src\assets\Font\InstagramSans-Medium.woff
+FileModTime:1660155292
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\Projects\InstaClone\insta-clone\src\assets\Font\InstagramSans-Medium.woff2
+FileModTime:1660155292
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\Projects\InstaClone\insta-clone\src\assets\Font\InstagramSans-Regular.eot
+FileModTime:1660155294
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:InstagramSans-Regular
+FamilyName:Instagram Sans
+StyleName:Regular
+FullName:Instagram Sans Regular
+MenuName:Instagram Sans
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Projects\InstaClone\insta-clone\src\assets\Font\InstagramSans-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:74200
+FileModTime:1660155294
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Instagram Sans Regular
+NameArray:0,Win,1,Instagram Sans
+NameArray:0,Win,16,Instagram Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\Projects\InstaClone\insta-clone\src\assets\Font\InstagramSans-Regular.woff
+FileModTime:1660155294
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\Projects\InstaClone\insta-clone\src\assets\Font\InstagramSans-Regular.woff2
+FileModTime:1660155294
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\Projects\InstaClone\insta-clone\src\assets\Font\InstagramSansCondensed-Bold.eot
+FileModTime:1660155289
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:InstagramSansCondensed-Bold
+FamilyName:Instagram Sans
+StyleName:Condensed Bold
+FullName:Instagram Sans Condensed Bold
+MenuName:Instagram Sans Condensed
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:D:\Projects\InstaClone\insta-clone\src\assets\Font\InstagramSansCondensed-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:110424
+FileModTime:1660155289
+WeightClass:700
+WidthClass:3
+AngleClass:0
+NameArray:0,Mac,4,Instagram Sans Condensed Bold
+NameArray:0,Win,1,Instagram Sans Condensed
+NameArray:0,Win,16,Instagram Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\Projects\InstaClone\insta-clone\src\assets\Font\InstagramSansCondensed-Bold.woff
+FileModTime:1660155289
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\Projects\InstaClone\insta-clone\src\assets\Font\InstagramSansCondensed-Bold.woff2
+FileModTime:1660155290
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\Projects\InstaClone\insta-clone\src\assets\Font\InstagramSansCondensed-Regular.eot
+FileModTime:1660155292
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:InstagramSansCondensed-Regular
+FamilyName:Instagram Sans
+StyleName:Condensed Regular
+FullName:Instagram Sans Condensed Regular
+MenuName:Instagram Sans Condensed
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Projects\InstaClone\insta-clone\src\assets\Font\InstagramSansCondensed-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:104716
+FileModTime:1660155292
+WeightClass:400
+WidthClass:3
+AngleClass:0
+NameArray:0,Mac,4,Instagram Sans Condensed Regular
+NameArray:0,Win,1,Instagram Sans Condensed
+NameArray:0,Win,16,Instagram Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\Projects\InstaClone\insta-clone\src\assets\Font\InstagramSansCondensed-Regular.woff
+FileModTime:1660155292
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\Projects\InstaClone\insta-clone\src\assets\Font\InstagramSansCondensed-Regular.woff2
+FileModTime:1660155292
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\Projects\InstaClone\insta-clone\src\assets\Font\InstagramSansHeadline-Regular.eot
+FileModTime:1660155291
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:InstagramSansHeadline-Regular
+FamilyName:Instagram Sans
+StyleName:Headline Regular
+FullName:Instagram Sans Headline Regular
+MenuName:Instagram Sans Headline
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Projects\InstaClone\insta-clone\src\assets\Font\InstagramSansHeadline-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:435132
+FileModTime:1660155291
+WeightClass:400
+WidthClass:1
+AngleClass:0
+NameArray:0,Mac,4,Instagram Sans Headline Regular
+NameArray:0,Win,1,Instagram Sans Headline
+NameArray:0,Win,16,Instagram Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\Projects\InstaClone\insta-clone\src\assets\Font\InstagramSansHeadline-Regular.woff
+FileModTime:1660155291
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\Projects\InstaClone\insta-clone\src\assets\Font\InstagramSansHeadline-Regular.woff2
+FileModTime:1660155292
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\Projects\InstaClone\insta-clone\src\assets\Font\InstagramSansScript-Bold.eot
+FileModTime:1660155293
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:InstagramSansScript-Bold
+FamilyName:Instagram Sans
+StyleName:Script Bold
+FullName:Instagram Sans Script Bold
+MenuName:Instagram Sans Script
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:D:\Projects\InstaClone\insta-clone\src\assets\Font\InstagramSansScript-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:433736
+FileModTime:1660155292
+WeightClass:700
+WidthClass:6
+AngleClass:0
+NameArray:0,Mac,4,Instagram Sans Script Bold
+NameArray:0,Win,1,Instagram Sans Script
+NameArray:0,Win,16,Instagram Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\Projects\InstaClone\insta-clone\src\assets\Font\InstagramSansScript-Bold.woff
+FileModTime:1660155293
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\Projects\InstaClone\insta-clone\src\assets\Font\InstagramSansScript-Bold.woff2
+FileModTime:1660155293
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\Projects\InstaClone\insta-clone\src\assets\Font\InstagramSansScript-Regular.eot
+FileModTime:1660155290
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:InstagramSansScript-Regular
+FamilyName:Instagram Sans
+StyleName:Script Regular
+FullName:Instagram Sans Script Regular
+MenuName:Instagram Sans Script
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Projects\InstaClone\insta-clone\src\assets\Font\InstagramSansScript-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:436488
+FileModTime:1660155290
+WeightClass:400
+WidthClass:6
+AngleClass:0
+NameArray:0,Mac,4,Instagram Sans Script Regular
+NameArray:0,Win,1,Instagram Sans Script
+NameArray:0,Win,16,Instagram Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\Projects\InstaClone\insta-clone\src\assets\Font\InstagramSansScript-Regular.woff
+FileModTime:1660155290
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\Projects\InstaClone\insta-clone\src\assets\Font\InstagramSansScript-Regular.woff2
+FileModTime:1660155291
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\Projects\InstaClone\insta-clone\src\assets\Font\stylesheet.css
+FileModTime:1660155294
+%EndFont
+

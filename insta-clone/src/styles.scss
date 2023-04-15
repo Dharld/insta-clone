@@ -33,3 +33,29 @@ ul {
 a {
   text-decoration: none;
 }
+
+button.btn {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: 100%;
+  margin: var(--space-sm) 0;
+  font-weight: 700;
+  background: var(--color-default-button);
+  color: white;
+  cursor: pointer;
+  transition: all 100ms ease;
+
+  &:hover {
+    background: darken(#4cb5f9, 10);
+  }
+
+  &.fb {
+    background-color: var(--color-blue-fb);
+    color: white;
+
+    &:hover {
+      background: darken(#0095f6, 2);
+    }
+  }
+}

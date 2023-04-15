@@ -18,59 +18,5 @@
     gap: 2px;
     grid-auto-flow: dense;
     padding-bottom: 48px;
-
-    .result-item {
-      background: var(--gray-6);
-      aspect-ratio: 1/1;
-      position: relative;
-      cursor: pointer;
-
-      &:hover .infos {
-        opacity: 1;
-      }
-
-      img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
-      .infos {
-        opacity: 0;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        display: grid;
-        place-items: center;
-        color: white;
-        background: linear-gradient(
-          to bottom,
-          rgba(0, 0, 0, 0.15),
-          rgba(0, 0, 0, 0.45)
-        );
-        transition: all 100ms ease-in;
-
-        .wrapper {
-          display: flex;
-          flex-direction: column;
-        }
-        svg {
-          width: 24px;
-          height: 24px;
-        }
-
-        div {
-          display: flex;
-          align-items: center;
-          gap: var(--space-xxs);
-        }
-      }
-
-      &.featured {
-        grid-row: span 2;
-        aspect-ratio: unset;
-      }
-    }
   }
 }

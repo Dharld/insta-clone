@@ -1,0 +1,123 @@
+.signup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background: white;
+  width: 100%;
+  min-height: 100vh;
+  padding-bottom: 2rem;
+
+  .bordered-container {
+    width: clamp(250px, 80%, 500px);
+    margin: 0 auto;
+    border: 1px solid var(--gray-1);
+    padding: 3rem 2rem 1rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  .already-signed {
+    display: grid;
+    place-items: center;
+    padding: 1rem 0;
+    font-size: var(--text-sm);
+    text-align: justify;
+  }
+
+  form {
+    .logo {
+      display: flex;
+      justify-content: center;
+      svg.pic {
+        display: block;
+        margin: 0 auto;
+        width: 115px;
+        height: 40px;
+        transform: scale(1.45);
+      }
+    }
+
+    h2 {
+      color: var(--gray-6);
+      font-size: var(--text-md);
+      text-align: center;
+    }
+
+    .sep {
+      position: relative;
+      width: 100%;
+      text-align: center;
+      font-size: var(--text-sm);
+      margin: var(--space-sm) 0;
+
+      &::before,
+      &::after {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+        width: 35%;
+        height: 1px;
+        background: var(--gray-1);
+      }
+
+      &::after {
+        left: unset;
+        right: 0;
+      }
+    }
+
+    .input {
+      position: relative;
+      background: var(--color-input-bg);
+      margin: var(--space-xs) 0;
+      border: 1px solid var(--gray-1);
+      border-radius: 2px;
+
+      label {
+        position: absolute;
+        top: calc(40% - var(--text-xs) / 2);
+        left: var(--space-sm);
+        margin: auto 0;
+        font-size: var(--text-xs);
+        color: var(--gray-5);
+        font-weight: 400;
+        transition: all 150ms ease;
+      }
+
+      input {
+        background-color: transparent;
+        width: 100%;
+        // padding: var(--space-md);
+        padding-top: calc(var(--space-md) + 5px);
+        padding-bottom: calc(var(--space-md) - 5px);
+        padding-inline: calc(var(--space-md) - 2px);
+        border: none;
+        outline: none;
+        font-size: var(--text-xs);
+
+        &:focus + label {
+          top: 5px;
+          left: var(--space-md);
+          font-size: var(--text-xxxs);
+        }
+      }
+    }
+
+    .policy {
+      font-size: var(--text-sm);
+      text-align: center;
+      color: var(--gray-5);
+
+      div:first-child {
+        margin: var(--space-sm) 5px;
+      }
+    }
+  }
+}
+
+.already-signed {
+}
